@@ -1,0 +1,136 @@
+/* Base styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 1200px;
+  background-color: #F6F6F6;
+}
+
+/* Navigation Bar */
+header {
+  width: 1510px;
+  overflow: hidden;
+  background: rgb(0,0,0);
+  background: linear-gradient(189deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.8827906162464986) 0%);
+}
+ul {
+  list-style-type: none;
+  margin-right: 5%;
+  padding: 0;
+  overflow: hidden;
+}
+li {
+  float: right;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 30px 20px;
+  text-decoration: none;
+}
+li a:hover {
+  color: #ffef85;
+}
+li p {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 30px 20px;
+  text-decoration: none;
+}
+/* logo */
+.logo {
+  display: block;
+  float: left;
+  padding: 30px 20px;
+  text-decoration: none;
+  margin-left: 6%;
+}
+.logo a {
+  color: white;
+  text-decoration: none;
+}
+
+/* textbox */
+section {
+  float: left;
+  margin-left: 7%;
+  margin-top: 10%;
+  max-width: 40%;
+  padding: 10px;
+}
+.textBox h2 {
+  color: #000000;
+  font-size: 4em;
+  line-height: 1.2em;
+  font-weight: 500;
+}
+.textBox p {
+  color: #222;
+  line-height: 1.5;
+}
+/* button */
+.textBox a {
+  text-decoration: none;
+  padding: 20px 50px;
+  font-size: 1.25rem;
+  background-color: #000;
+  color: #fff;
+  border-radius: 100px;
+}
+.textBox a:hover {
+  color: #ffef85;
+}
+
+/* Persona images and details */
+.images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-top: 10%;
+}
+.persona {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 20px;
+  width: 100%;
+}
+.persona img {
+  width: 150px;
+  height: 150px;
+  padding: 3px;
+  margin-right: 10px;
+}
+.persona-details {
+  flex-grow: 1;
+  padding: 10px;
+  font-size: 15px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.persona-details p {
+  margin-bottom: 10px;
+}
+aside {
+  float: right;
+  justify-content: flex-end;
+  margin-left: 10%;
+  max-width: 40%;
+  padding: 1px;
+}
+
+/* Style the footer */
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: black;
+  text-align: center;
+  padding: 10px;
+}

@@ -1,0 +1,129 @@
+  *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  body{
+    width: 1200px;
+    background-color: #F6F6F6;
+  }
+  
+  /* Navigation Bar */
+  header{
+    width: 1510px;
+    overflow: hidden;
+    background: rgb(0,0,0);
+    background: linear-gradient(189deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.8827906162464986) 0%);
+  }
+
+  ul {
+    list-style-type: none;
+    margin-right: 5%;
+    padding: 0;
+    overflow: hidden;
+  }
+  li {
+    float: right;
+  }
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+    text-decoration: none;
+  }
+  li a:hover {
+    color: #ffef85;
+  }
+  li p {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+    text-decoration: none;
+  }
+  /* logo */
+  .logo{
+    display: block;
+    float:left;
+    padding: 30px 20px;
+    text-decoration: none;
+    margin-left: 6%;
+  }
+
+  .logo a{
+    color: white;
+    text-decoration: none;
+  }
+
+  /* Style the footer */
+ .footer {
+    left: 0;
+    bottom: 60%;
+    width: 100%;
+    /* background-color: black; */
+    color: black;
+    text-align: center;
+    padding:10px;
+  }
+  
+  /* header */
+  .header{
+    padding: 10px;
+    left: 0;
+    width: 100%;
+    margin-left: 13%;
+    margin-top: 2%;
+    text-align: center;
+  }
+
+  /* content */
+  .content{
+    padding: 10px;
+    top: 20%;
+    margin-left: 23%;
+    width: 60%;
+  }
+.content form{
+  margin-left: 30%;
+}
+/* dropdown */
+.dropdowncountry{
+  padding: 10px;
+}
+
+.dropdownstartyear{
+  padding: 10px;
+}
+
+.dropdownendyear{
+  padding: 10px;
+}
+
+.columns{
+  padding: 10px;
+}
+
+.content button{
+  padding: 5px;
+}
+
+.content select{
+  width: 100%;
+  padding: 16px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #f1f1f1;
+}
+
+.results th, td{
+  padding: 10px 30px;
+  text-align: left;
+  border: 1px solid #2d2d2d;
+}
+
+.results table{
+  border-collapse: collapse;
+  border: 1px solid #2d2d2d;
+  width: 150%;
+}
